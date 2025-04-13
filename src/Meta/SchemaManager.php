@@ -31,6 +31,7 @@ class SchemaManager implements IteratorAggregate
         PostgresConnection::class => PostgresSchema::class,
         \Larapack\DoctrineSupport\Connections\MySqlConnection::class => MySqlSchema::class,
         \Staudenmeir\LaravelCte\Connections\MySqlConnection::class => MySqlSchema::class,
+        \Grimzy\LaravelMysqlSpatial\MysqlConnection::class => MySqlSchema::class,
     ];
 
     /**
